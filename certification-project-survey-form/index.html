@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id='title'>Survey</h1>
+    <p id='description'>
+      Aqui está uma boa descrição do que este questionario questiona! Obrigado.
+    </p>
+    <form id='survey-form'>
+      <fieldset id='personal-info'>
+        <label for='name' id='name-label'>Name: <input type='text' id='name' placeholder='Type your name here...' required></label>
+        <label for='email' id='email-label'>E-mail: <input type='email' id='email' placeholder='Insert your email here...' required></label>
+        <label for='number' id='number-label'>Age: <input type='number' id='number' placeholder='Years...' min='18' max='110'></label>
+        <select id='dropdown'>
+          <option value='standard'>--Chose an option--</option>
+          <option value='dog'>Dog</value>
+          <option value='cat'>Cat</value>
+        </select>
+      </fieldset>
+      <fieldset id='would'>
+        <legend>Would you do something?</legend>
+        <label for='radio-yes'><input type='radio' id='radio-yes' name='would' value='y'>Yes</label>
+        <label for='radio-no'><input type='radio' id='radio-no' name='would' value='no'>No</label>
+      </fieldset>
+      <fieldset id='interests'>
+        <legend>Chose some of your interest areas</legend>
+        <label for='int1'><input type='checkbox' id='int1' name='int1' value='1'>Int 01</label>
+        <label for='int2'><input type='checkbox' id='int2' name='int2' value='2'>Int 02</label>
+        <label for='int3'><input type='checkbox' id='int3' name='int3' value='3'>Int 03</label>
+      </fieldset>
+      <label for='comments' id='textarea'>Leave a comment:<textarea id='comments' name='comments' rows='3' cols='53' placeholder='Type your comments here...'></textarea></label>
+      <button type='submit' id='submit'>Submit</button>

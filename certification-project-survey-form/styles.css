@@ -1,0 +1,43 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    background: lightgrey;
+  }
+  
+  h1, p {
+    margin: 3px 3px 9px 0;
+  }
+  
+  #personal-info input {
+    display: block;
+    width: 100%;
+    margin: 3px;
+  }
+  
+  #personal-info select {
+    margin-top: 4px;
+  }
+  
+  fieldset {
+    margin: 3px 0;
+  }
+  
+  #interests label {
+    display: block;
+    padding: 3px 0;
+  }
+  
+  textarea#comments {
+    margin: 5px 0 5px 3px;
+    padding: 3px;
+  }
+  
+  label#textarea {
+    padding: 3px;
+  }
+  
+  button[type='submit'] {
+    display: block;
+    margin-left: 3px;
+  }
